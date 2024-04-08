@@ -1,0 +1,552 @@
+.board__container{
+    width: 100%;
+    padding: 6%;
+    display: flex;
+    margin-bottom: -7%;
+    max-width: 100%;
+}
+
+
+.board__container .board1__container,
+.board__container .board2__container,
+.board__container .board3__container,
+.board__container .board4__container,
+.board__container .board5__container,
+.board__container .board6__container{
+    flex-basis: 50%;
+    width: 100%;
+    margin-right: 4% ;
+    transition: all 1s;
+    box-shadow: 0 0 7px 0 #ced3da;
+}
+
+
+.board__container .board2__container .board2__col2 .board2__col2__col2 img,
+.board__container .board3__container .board3__col2 .board3__col2__col2 img,
+.board__container .board4__container .board4__col2 .board4__col2__col2 img,
+.board__container .board5__container .board5__col2 .board5__col2__col2 img,
+.board__container .board6__container .board6__col2 .board6__col2__col2 img{
+    transform: translateX(100%) translateY(60%);
+    transition: all 2s;
+}
+
+
+
+.board__container .board1__container{
+    box-shadow: none;
+}
+
+
+
+.board__container .board1__container h1{
+    font-size:3.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2rem;
+    letter-spacing: -2px;
+    color: #122237;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: 60px;
+    padding-left: 100px;
+}
+
+
+
+.board__container .board1__container p{
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+
+.board__container .board2__container{
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.board__container .board2__container:hover{
+    background-color: blue;
+}
+
+
+
+.board__container .board2__container .board2__col1{
+    flex-basis: 40%;
+    display: flex;
+}
+
+.board__container .board2__container .board2__col1 .col{
+  flex-basis: 60%;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.board__container .board2__container .board2__col1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: blue;
+    padding-bottom: 40px;
+    transition: all 1s;
+
+}
+
+
+.board__container .board2__container .board2__col1 p{
+    font-size: 30px;
+    font-weight: 200;
+    color: #3d4f60;
+    text-align: left;
+    transition: all 1s;
+}
+
+
+
+.board__container .board2__container .board2__col2{
+    flex-basis: 60%;
+    display: flex;
+}
+
+.board__container .board2__container .board2__col2 .board2__col2__col1{
+   flex-basis: 50%;
+}
+
+.board__container .board2__container .board2__col2 .board2__col2__col1 p{
+    padding-left: 40px;
+    font-size: 30px;
+    color: blue;
+    display: inline-block;
+    transition: all 1s;
+    
+}
+
+
+.board__container .board2__container .board2__col2 .board2__col2__col1 .icon{
+    padding-top: 80%;
+}
+
+.board__container .board2__container .board2__col2 .board2__col2__col2{
+    flex-basis: 50%;
+}
+
+.board__container .board2__container .board2__col2 .board2__col2__col2 img{
+    width: 100%;
+}
+.board__container .board3__container{
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 1s;
+
+}
+
+.board__container .board3__container:hover{
+    background-color: #04b0f5; 
+}
+
+
+.board__container .board3__container .board3__col1{
+    flex-basis: 40%;
+    display: flex;
+}
+
+.board__container .board3__container .board3__col1 .col{
+    flex-basis: 60%;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .board__container .board3__container .board3__col1 h1{
+      font-size: 50px;
+      font-weight: 600;
+      color: rgb(4, 176, 245);
+      padding-bottom: 40px;
+      transition: all 1s;
+  
+  }
+  
+  
+  .board__container .board3__container .board3__col1 p{
+      font-size: 30px;
+      font-weight: 200;
+      color: #3d4f60;
+      text-align: left;
+      transition: all 1s;
+  }
+  
+  
+
+.board__container .board3__container .board3__col2{
+    flex-basis: 60%;
+    display: flex;
+}
+.board__container .board3__container .board3__col2 .board3__col2__col1{
+    flex-basis: 50%;
+ }
+
+ .board__container .board3__container .board3__col2 .board3__col2__col1 p{
+    padding-left: 40px;
+    font-size: 30px;
+    color: rgb(4, 176, 245);
+    display: inline-block;
+    transition: all 1s;
+    
+}
+
+
+.board__container .board3__container .board3__col2 .board3__col2__col1 .icon{
+    padding-top: 80%;
+}
+ 
+ .board__container .board3__container .board3__col2 .board3__col2__col2{
+     flex-basis: 50%;
+ }
+
+ .board__container .board3__container .board3__col2 .board3__col2__col2 img{
+    width: 100%;
+}
+.board__container .board4__container{
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.board__container .board4__container:hover{
+    background-color:#037e03; 
+}
+
+.board__container .board4__container .board4__col1{
+    flex-basis: 40%;
+    display: flex;
+}
+
+.board__container .board4__container .board4__col1 .col{
+    flex-basis: 60%;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .board__container .board4__container .board4__col1 h1{
+      font-size: 45px;
+      font-weight: 600;
+      color:#037e03;
+      padding-bottom: 40px;
+      transition: all 1s;
+  
+  }
+  
+  
+  
+  .board__container .board4__container .board4__col1 p{
+      font-size: 30px;
+      font-weight: 200;
+      color: #3d4f60;
+      text-align: left;
+      transition: all 1s;
+  }
+  
+
+
+.board__container .board4__container .board4__col2{
+    flex-basis: 60%;
+    display: flex;
+}
+
+.board__container .board4__container .board4__col2 .board4__col2__col1{
+    flex-basis: 50%;
+ }
+
+ .board__container .board4__container .board4__col2 .board4__col2__col1 p{
+    padding-left: 40px;
+    font-size: 30px;
+    color:#037e03;
+    display: inline-block;
+    transition: all 1s;
+    
+}
+
+
+.board__container .board4__container .board4__col2 .board4__col2__col1 .icon{
+    padding-top: 80%;
+}
+ 
+ .board__container .board4__container .board4__col2 .board4__col2__col2{
+     flex-basis: 50%;
+ }
+
+ .board__container .board4__container .board4__col2 .board4__col2__col2 img{
+    width: 100%;
+}
+.board__container .board5__container{
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.board__container .board5__container:hover{
+    background-color: #f33252;
+}
+
+.board__container .board5__container .board5__col1{
+    flex-basis: 40%;
+    display: flex;
+}
+
+.board__container .board5__container .board5__col1 .col{
+    flex-basis: 60%;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .board__container .board5__container .board5__col1 h1{
+      font-size: 50px;
+      font-weight: 600;
+      color: #f33252;
+      padding-bottom: 40px;
+      transition: all 1s;
+  
+  }
+  
+  
+  
+  .board__container .board5__container .board5__col1 p{
+      font-size: 30px;
+      font-weight: 200;
+      color: #3d4f60;
+      text-align: left;
+      transition: all 1s;
+  }
+  
+ 
+
+.board__container .board5__container .board5__col2{
+    flex-basis: 60%;
+    display: flex;
+}
+
+.board__container .board5__container .board5__col2 .board5__col2__col1{
+    flex-basis: 50%;
+ }
+
+ .board__container .board5__container .board5__col2 .board5__col2__col1 p{
+    padding-left: 40px;
+    font-size: 30px;
+    color: rgb(243, 50, 82);
+    display: inline-block;
+    
+}
+
+
+.board__container .board5__container .board5__col2 .board5__col2__col1 .icon{
+    padding-top: 80%;
+}
+ 
+ .board__container .board5__container .board5__col2 .board5__col2__col2{
+     flex-basis: 50%;
+ }
+
+ .board__container .board5__container .board5__col2 .board5__col2__col2 img{
+    width: 100%;
+}
+.board__container .board6__container{
+background-color: #fff;
+border-radius: 40px;
+display: flex;
+flex-direction: column;
+transition: all 1s;
+overflow: hidden;
+
+}
+
+.board__container .board6__container:hover{
+    background-color: #122237;
+}
+
+.board__container .board6__container .board6__col1{
+    flex-basis: 40%;
+    display: flex;
+}
+
+.board__container .board6__container .board6__col1 .col{
+    flex-basis: 60%;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .board__container .board6__container .board6__col1 h1{
+      font-size: 50px;
+      font-weight: 600;
+      color:#122237;
+      padding-bottom: 40px;
+      transition: all 1s;
+  
+  }
+  
+ 
+  .board__container .board6__container .board6__col1 p{
+      font-size: 30px;
+      font-weight: 200;
+      color: #3d4f60;
+      text-align: left;
+      transition: all 1s;
+  }
+  
+  
+
+.board__container .board6__container .board6__col2{
+    flex-basis: 60%;
+    display: flex;
+}
+
+.board__container .board6__container .board6__col2 .board6__col2__col1{
+    flex-basis: 50%;
+ }
+
+ .board__container .board6__container .board6__col2 .board6__col2__col1 p{
+    padding-left: 40px;
+    font-size: 30px;
+   color: #122237;
+    display: inline-block;
+    transition: all 1s;
+    
+}
+
+
+.board__container .board6__container .board6__col2 .board6__col2__col1 .icon{
+    padding-top: 80%;
+}
+ 
+ 
+ .board__container .board6__container .board6__col2 .board6__col2__col2{
+     flex-basis: 50%;
+ }
+
+ .board__container .board6__container .board6__col2 .board6__col2__col2 img{
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width:1500px){
+    .board__container{
+        display: flex;
+       flex-direction: column;
+       padding: 15%;
+       padding-bottom: 3%;
+       padding-top: 3%;
+    }
+
+.board__container .board1__container,
+.board__container .board2__container,
+.board__container .board3__container,
+.board__container .board4__container,
+.board__container .board5__container,
+.board__container .board6__container{
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+.board__container .board1__container h1{
+    font-size: 3.2rem;
+}
+
+.board__container .board1__container p{
+    font-size: 2rem;
+}
+
+
+
+.board__container .board3__container .board3__col1 h1,
+.board__container .board4__container .board4__col1 h1,
+.board__container .board2__container .board2__col1 h1,
+.board__container .board5__container .board5__col1 h1,
+.board__container .board6__container .board6__col1 h1{
+    font-size: 2.8rem;
+
+}
+
+
+.board__container .board3__container .board3__col1 p,
+.board__container .board2__container .board2__col1 p,
+.board__container .board4__container .board4__col1 p,
+.board__container .board5__container .board5__col1 p,
+.board__container .board6__container .board6__col1 p{
+    font-size: 1.8rem;
+}
+
+.board__container .board5__container .board5__col2 .board5__col2__col1 p,
+.board__container .board6__container .board6__col2 .board6__col2__col1 p,
+.board__container .board4__container .board4__col2 .board4__col2__col1 p,
+.board__container .board3__container .board3__col2 .board3__col2__col1 p,
+.board__container .board2__container .board2__col2 .board2__col2__col1 p{
+    font-size: 2.8rem;
+    
+}
+}
+
+
+@media screen and (max-width:700px){
+    .board__container{
+       padding: 2%;
+
+    }
+
+.board__container .board1__container h1{
+    font-size: 2.2rem;
+    padding-left: 0;
+    text-align: center;
+    line-height: normal;
+}
+
+.board__container .board1__container p{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: normal;
+    padding-left: 0;
+}
+
+
+
+.board__container .board3__container .board3__col1 h1,
+.board__container .board4__container .board4__col1 h1,
+.board__container .board2__container .board2__col1 h1,
+.board__container .board5__container .board5__col1 h1,
+.board__container .board6__container .board6__col1 h1{
+    font-size: 1.8rem;
+    padding-left: 0;
+
+}
+
+
+.board__container .board3__container .board3__col1 p,
+.board__container .board2__container .board2__col1 p,
+.board__container .board4__container .board4__col1 p,
+.board__container .board5__container .board5__col1 p,
+.board__container .board6__container .board6__col1 p{
+    font-size: 1rem;
+}
+
+
+.board__container .board5__container .board5__col2 .board5__col2__col1 p,
+.board__container .board6__container .board6__col2 .board6__col2__col1 p,
+.board__container .board4__container .board4__col2 .board4__col2__col1 p,
+.board__container .board3__container .board3__col2 .board3__col2__col1 p,
+.board__container .board2__container .board2__col2 .board2__col2__col1 p{
+    font-size: 1.8rem;
+    
+}
+}
